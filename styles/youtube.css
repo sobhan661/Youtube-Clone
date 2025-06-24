@@ -1,0 +1,49 @@
+div {
+  font-family: Arial;
+}
+
+.main-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.under-thumbnail {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+
+
+.thumbnail {
+  width: 100%;
+}
+
+.text-box {
+  padding-left: 16px;
+}
+
+.channel-profile {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.channel-name {
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.video-stats {
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0.6;
+}
