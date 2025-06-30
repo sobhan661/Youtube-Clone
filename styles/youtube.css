@@ -1,7 +1,3 @@
-div {
-  font-family: Arial;
-}
-
 .main-view {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -18,18 +14,19 @@ div {
 
 .thumbnail {
   width: 100%;
+  margin-bottom: 5px;
 }
 
 .text-box {
-  padding-left: 16px;
+  padding-left: 0px;
 }
 
 .channel-profile {
-  height: 50px;
-  width: 50px;
+  height: 36px;
+  width: 36px;
   object-fit: cover;
   object-position: center;
-  border-radius: 25px;
+  border-radius: 18px;
 }
 
 .title {
@@ -46,4 +43,20 @@ div {
   margin-top: 0;
   margin-bottom: 0;
   opacity: 0.6;
+}
+
+.thumbnail-div {
+  position: relative;
+}
+
+.time-stamp {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 3px;
 }

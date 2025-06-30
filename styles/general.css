@@ -1,0 +1,11 @@
+div {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 130px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+}
