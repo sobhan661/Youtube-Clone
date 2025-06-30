@@ -19,13 +19,6 @@ A modern web app mimicking the core functionalities of YouTube—browse, search,
 
 ---
 
-## 🎬 Demo
-
-Live demo (if deployed):  
-`https://your-deployment-url.com`
-
----
-
 ## ✨ Features
 
 - **Home feed**: Browse trending YouTube videos  
