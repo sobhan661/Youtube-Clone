@@ -52,6 +52,8 @@
   position: relative;
 }
 
+.notifications-icon-div .tooltip,
+.youtube-apps-container .tooltip,
 .upload-icon-container .tooltip,
 .voice-button .tooltip,
 .search-button .tooltip {
@@ -71,12 +73,16 @@
   white-space: nowrap;
 }
 
+.notifications-icon-div:hover .tooltip,
+.youtube-apps-container:hover .tooltip ,
 .upload-icon-container:hover .tooltip,
 .voice-button:hover .tooltip,
 .search-button:hover .tooltip {
   opacity: 1;
 }
 
+.notifications-icon-div,
+.youtube-apps-container,
 .upload-icon-container,
 .search-button,
 .voice-button {

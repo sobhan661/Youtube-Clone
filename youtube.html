@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>YouTube</title>
 
     <link rel="stylesheet" href="styles/youtube.css">
@@ -13,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
         <img class="hamburger-menu-icon" src="icons/hamburger-menu.svg" alt="">
         <img class="youtube-logo-icon" src="icons/youtube-logo.svg" alt="">
@@ -40,17 +42,25 @@
             Create
           </div>
         </div>
-        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+          <div class="tooltip">
+            Youtube apps
+          </div>
+        </div>
         <div class="notifications-icon-div">
           <img class="notifications-icon" src="icons/notifications.svg" alt="">
           <div class="notification-count">
             3
           </div>
+          <div class="tooltip">
+            Notifications
+          </div>
         </div>
         <img class="current-user-picture" src="imgs/vergil.jpg" alt="">
       </div>
-    </div>
-    <div class="sidebar">
+    </header>
+    <nav class="sidebar">
       <div class="sidebar-link">
         <img src="sidebar icons/home.svg" alt="">
         <div>Home</div>
@@ -75,170 +85,171 @@
         <img src="sidebar icons/library.svg" alt="">
         <div>Library</div>
       </div>
-    </div>
-    </div>
-    <div class="main-view">
-      <div class="video-container">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="imgs/Dark-Souls-3-720-.jpg" alt="">
-          <div class="time-stamp">
-            5:00
+    </nav>
+    <main>
+      <section class="main-view">
+        <div class="video-container">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="imgs/Dark-Souls-3-720-.jpg" alt="">
+            <div class="time-stamp">
+              5:00
+            </div>
+          </div>
+          <div class="under-thumbnail">
+            <div class="text">
+              <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <p class="title">
+                DarkSouls Game play | Massive Bosses By Sobhan Ashrafi
+              </p>
+
+              <p class="channel-name">
+                Sobhan
+              </p>
+
+              <p class="video-stats">
+                1B views &#183; 3 days ago
+              </p>
+            </div>
           </div>
         </div>
-        <div class="under-thumbnail">
-          <div class="text">
-            <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+        
+        <div class="video-container">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="imgs/981500.jpg" alt="">
+            <div class="time-stamp">
+              5:00
+            </div>
           </div>
-          <div class="text-box">
-            <p class="title">
-              DarkSouls Game play | Massive Bosses By Sobhan Ashrafi
-            </p>
+          <div class="under-thumbnail">
+            <div>
+              <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <p class="title">
+                Sekiro Game play | Massive Bosses By Sobhan Ashrafi
+              </p>
 
-            <p class="channel-name">
-              Sobhan
-            </p>
+              <p class="channel-name">
+                Sobhan
+              </p>
 
-            <p class="video-stats">
-              1B views &#183; 3 days ago
-            </p>
+              <p class="video-stats">
+                1B views &#183; 5 days ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div class="video-container">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="imgs/981500.jpg" alt="">
-          <div class="time-stamp">
-            5:00
+
+        <div class="video-container">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="imgs/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.jpg" alt="">
+            <div class="time-stamp">
+              5:00
+            </div>
+          </div>
+          <div class="under-thumbnail">
+            <div>
+              <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <p class="title">
+                Sekiro Game play | Massive Bosses By Sobhan Ashrafi
+              </p>
+
+              <p class="channel-name">
+                Sobhan
+              </p>
+
+              <p class="video-stats">
+                1B views &#183; 1 month ago
+              </p>
+            </div>
           </div>
         </div>
-        <div class="under-thumbnail">
-          <div>
-            <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+        
+        <div class="video-container">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="imgs/ss_10165751e4e556406064a37de7b609c26c001715.jpg" alt="">
+            <div class="time-stamp">
+              5:00
+            </div>
           </div>
-          <div class="text-box">
-            <p class="title">
-              Sekiro Game play | Massive Bosses By Sobhan Ashrafi
-            </p>
+          <div class="under-thumbnail">
+            <div>
+              <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <p class="title">
+                MGR Game play | Massive Bosses By Sobhan Ashrafi
+              </p>
 
-            <p class="channel-name">
-              Sobhan
-            </p>
+              <p class="channel-name">
+                Sobhan
+              </p>
 
-            <p class="video-stats">
-              1B views &#183; 5 days ago
-            </p>
+              <p class="video-stats">
+                1B views &#183; 2 months ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+        
+        <div class="video-container">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="imgs/ss_d0314b4c134329a483b5e43af951f60274abc66b.1920x1080.jpg" alt="">
+            <div class="time-stamp">
+              5:00
+            </div>
+          </div>
+          <div class="under-thumbnail">
+            <div>
+              <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <p class="title">
+                Nier:AutoMuta Game play | Massive Bosses By Sobhan Ashrafi
+              </p>
 
-      <div class="video-container">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="imgs/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.jpg" alt="">
-          <div class="time-stamp">
-            5:00
+              <p class="channel-name">
+                Sobhan
+              </p>
+
+              <p class="video-stats">
+                1B views &#183; a year ago
+              </p>
+            </div>
           </div>
         </div>
-        <div class="under-thumbnail">
-          <div>
-            <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+        
+        <div class="video-container">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="imgs//ss_b4a80bd6e828a81db09ecbef5694e5d0cddb2caf.jpg" alt="">
+            <div class="time-stamp">
+              5:00
+            </div>
           </div>
-          <div class="text-box">
-            <p class="title">
-              Sekiro Game play | Massive Bosses By Sobhan Ashrafi
-            </p>
+          <div class="under-thumbnail">
+            <div>
+              <img class="channel-profile" src="imgs/vergil.jpg" alt="">
+            </div>
+            <div class="text-box">
+              <p class="title">
+                DarkSouls Remastered Game play | Massive Bosses By Sobhan Ashrafi
+              </p>
 
-            <p class="channel-name">
-              Sobhan
-            </p>
+              <p class="channel-name">
+                Sobhan
+              </p>
 
-            <p class="video-stats">
-              1B views &#183; 1 month ago
-            </p>
+              <p class="video-stats">
+                1B views &#183; 2 years ago
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div class="video-container">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="imgs/ss_10165751e4e556406064a37de7b609c26c001715.jpg" alt="">
-          <div class="time-stamp">
-            5:00
-          </div>
-        </div>
-        <div class="under-thumbnail">
-          <div>
-            <img class="channel-profile" src="imgs/vergil.jpg" alt="">
-          </div>
-          <div class="text-box">
-            <p class="title">
-              MGR Game play | Massive Bosses By Sobhan Ashrafi
-            </p>
-
-            <p class="channel-name">
-              Sobhan
-            </p>
-
-            <p class="video-stats">
-              1B views &#183; 2 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="video-container">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="imgs/ss_d0314b4c134329a483b5e43af951f60274abc66b.1920x1080.jpg" alt="">
-          <div class="time-stamp">
-            5:00
-          </div>
-        </div>
-        <div class="under-thumbnail">
-          <div>
-            <img class="channel-profile" src="imgs/vergil.jpg" alt="">
-          </div>
-          <div class="text-box">
-            <p class="title">
-              Nier:AutoMuta Game play | Massive Bosses By Sobhan Ashrafi
-            </p>
-
-            <p class="channel-name">
-              Sobhan
-            </p>
-
-            <p class="video-stats">
-              1B views &#183; a year ago
-            </p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="video-container">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="imgs//ss_b4a80bd6e828a81db09ecbef5694e5d0cddb2caf.jpg" alt="">
-          <div class="time-stamp">
-            5:00
-          </div>
-        </div>
-        <div class="under-thumbnail">
-          <div>
-            <img class="channel-profile" src="imgs/vergil.jpg" alt="">
-          </div>
-          <div class="text-box">
-            <p class="title">
-              DarkSouls Remastered Game play | Massive Bosses By Sobhan Ashrafi
-            </p>
-
-            <p class="channel-name">
-              Sobhan
-            </p>
-
-            <p class="video-stats">
-              1B views &#183; 2 years ago
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
